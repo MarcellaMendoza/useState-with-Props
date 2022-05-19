@@ -1,0 +1,23 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea {
+  width: 80vw;
+  height: 80vh;
+  resize: none;
+}
+
+.input {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.input > * {
+  margin-right: 20px;
+  margin-left: 20px;
+}
